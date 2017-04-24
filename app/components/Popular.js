@@ -1,6 +1,7 @@
 var React     = require('react');
 var PropTypes = require('prop-types');
 var api       = require('../utils/api');
+var Loading   = require('./Loading');
 
 // Stateless functional component
 // Doesn't have state, receives props
@@ -99,7 +100,7 @@ class Popular extends React.Component {
           onSelect={this.updateLanguage}
         />
         {!this.state.repos
-          ? <p>LOADING</p>
+          ? <Loading text='loading' speed={300}/>
           : <RepoGrid repos={this.state.repos} />}
       </div>
     )

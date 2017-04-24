@@ -8,6 +8,11 @@ clone repo locally, then
 
 followed by
 
-`npm run start`
+`npm run start` for dev
 
-##### Visit reacttraining.com for the tutorial used
+or
+
+`npm run build` for production
+
+#### [Click Here for Live Demo](https://github-battle-demo-4792a.firebaseapp.com)
+##### Visit [reacttraining.com](http://www.reacttraining.com) for the tutorial used
